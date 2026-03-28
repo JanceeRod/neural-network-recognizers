@@ -7,7 +7,9 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
-torch = "^2.1.0"
+torch = "^2.3.0"
+torchvision = "^0.18.0"
+torchaudio = "^2.3.0"
 rau = {git = "https://github.com/JanceeRod/rau.git"}
 scipy = "^1.13.1"
 matplotlib = "^3.9.0"
